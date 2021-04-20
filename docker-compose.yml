@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  litheservicedemo.document.webapi:
+    image: ${DOCKER_REGISTRY-}litheservicedemodocumentwebapi
+    build:
+      context: .
+      dockerfile: LitheServiceDemo.Document.WebApi\Dockerfile
+    ports:
+      - "17888:80"
+

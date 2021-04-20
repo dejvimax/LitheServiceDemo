@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LitheServiceDemo.Document.WebApi", "LitheServiceDemo.Document.WebApi\LitheServiceDemo.Document.WebApi.csproj", "{83A51851-073F-4C88-B48E-154F02A1A6E1}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{761CC4E1-6A9C-451C-ADF8-5A7DAB5CC4B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83A51851-073F-4C88-B48E-154F02A1A6E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A51851-073F-4C88-B48E-154F02A1A6E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A51851-073F-4C88-B48E-154F02A1A6E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A51851-073F-4C88-B48E-154F02A1A6E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{761CC4E1-6A9C-451C-ADF8-5A7DAB5CC4B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{761CC4E1-6A9C-451C-ADF8-5A7DAB5CC4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{761CC4E1-6A9C-451C-ADF8-5A7DAB5CC4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{761CC4E1-6A9C-451C-ADF8-5A7DAB5CC4B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADF84AA0-926C-422F-8E8A-EBFC04414942}
+	EndGlobalSection
+EndGlobal

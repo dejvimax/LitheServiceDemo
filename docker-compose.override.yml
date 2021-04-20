@@ -1,0 +1,6 @@
+version: '3.4'
+
+services:
+  litheservicedemo.document.webapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
